@@ -1,1 +1,55 @@
-<mxfile host="app.diagrams.net" modified="2022-04-14T08:29:40.424Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.75 Safari/537.36" version="17.4.4" etag="wRLeOwD7v-mSu1wta6jH" type="github"><diagram id="CkgJBTPVnKmIXbeWFj0L">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2022-04-14T09:19:43.793Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.75 Safari/537.36" etag="oEoPFvVMRccXbHgobseh" version="17.4.4" type="github">
+  <diagram id="CkgJBTPVnKmIXbeWFj0L" name="Page-1">
+    <mxGraphModel dx="946" dy="614" grid="1" gridSize="20" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" background="#ffffff" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="BAhOMB6yXGcnK7tM0DtT-23" value="" style="rounded=0;whiteSpace=wrap;html=1;gradientColor=none;fillColor=default;dashed=1;" vertex="1" parent="1">
+          <mxGeometry x="40" y="220" width="440" height="180" as="geometry" />
+        </mxCell>
+        <mxCell id="BAhOMB6yXGcnK7tM0DtT-22" value="" style="rounded=0;whiteSpace=wrap;html=1;gradientColor=none;fillColor=default;dashed=1;" vertex="1" parent="1">
+          <mxGeometry x="40" y="420" width="440" height="180" as="geometry" />
+        </mxCell>
+        <mxCell id="BAhOMB6yXGcnK7tM0DtT-18" style="edgeStyle=orthogonalEdgeStyle;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;rounded=0;strokeColor=#000000;" edge="1" parent="1" source="BAhOMB6yXGcnK7tM0DtT-1" target="BAhOMB6yXGcnK7tM0DtT-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="BAhOMB6yXGcnK7tM0DtT-1" value="业务的存储需求" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffff88;strokeColor=#36393d;" vertex="1" parent="1">
+          <mxGeometry x="120" y="140" width="280" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="BAhOMB6yXGcnK7tM0DtT-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="BAhOMB6yXGcnK7tM0DtT-2" target="BAhOMB6yXGcnK7tM0DtT-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="BAhOMB6yXGcnK7tM0DtT-2" value="k8s StorageClasss" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#cce5ff;strokeColor=#36393d;" vertex="1" parent="1">
+          <mxGeometry x="100" y="240" width="320" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="BAhOMB6yXGcnK7tM0DtT-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="BAhOMB6yXGcnK7tM0DtT-5" target="BAhOMB6yXGcnK7tM0DtT-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="BAhOMB6yXGcnK7tM0DtT-5" value="k8s&amp;nbsp; localstorage-class" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#1ba1e2;fontColor=#ffffff;strokeColor=#006EAF;" vertex="1" parent="1">
+          <mxGeometry x="80" y="340" width="360" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="BAhOMB6yXGcnK7tM0DtT-7" value="&lt;div style=&quot;text-align: justify&quot;&gt;&lt;span&gt;LVM的磁盘挂载&lt;/span&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=center;fillColor=#1ba1e2;fontColor=#ffffff;strokeColor=#006EAF;" vertex="1" parent="1">
+          <mxGeometry x="80" y="430" width="360" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="BAhOMB6yXGcnK7tM0DtT-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="BAhOMB6yXGcnK7tM0DtT-8" target="BAhOMB6yXGcnK7tM0DtT-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="BAhOMB6yXGcnK7tM0DtT-8" value="存储设备&lt;br&gt;&lt;br&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="80" y="510" width="360" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="BAhOMB6yXGcnK7tM0DtT-10" value="SSD" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#6a00ff;fontColor=#ffffff;strokeColor=#3700CC;" vertex="1" parent="1">
+          <mxGeometry x="90" y="520" width="60" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="BAhOMB6yXGcnK7tM0DtT-11" value="SAS" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#6a00ff;fontColor=#ffffff;strokeColor=#3700CC;" vertex="1" parent="1">
+          <mxGeometry x="160" y="520" width="60" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="BAhOMB6yXGcnK7tM0DtT-12" value="SATA" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#6a00ff;fontColor=#ffffff;strokeColor=#3700CC;" vertex="1" parent="1">
+          <mxGeometry x="300" y="520" width="60" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="BAhOMB6yXGcnK7tM0DtT-13" value="XXX" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#6a00ff;fontColor=#ffffff;strokeColor=#3700CC;" vertex="1" parent="1">
+          <mxGeometry x="370" y="520" width="60" height="40" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
