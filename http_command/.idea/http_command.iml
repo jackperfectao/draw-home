@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module type="PYTHON_MODULE" version="4">
+  <component name="NewModuleRootManager">
+    <content url="file://$MODULE_DIR$" />
+    <orderEntry type="jdk" jdkName="Python 2.7" jdkType="Python SDK" />
+    <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="module" module-name="onebox" />
+    <orderEntry type="module" module-name="alireg_go" />
+    <orderEntry type="module" module-name="astc-db" />
+    <orderEntry type="module" module-name="zilu" />
+    <orderEntry type="module" module-name="script-v3" />
+  </component>
+</module>
